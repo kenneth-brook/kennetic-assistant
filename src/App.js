@@ -1,4 +1,4 @@
-import "./sass-master/index.sass";
+import "./sass-master/index.scss";
 
 function App() {
 	return (
