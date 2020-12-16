@@ -1,5 +1,11 @@
+import "./sass-master/index.sass";
+
 function App() {
-	return <div className='App'></div>;
+	return (
+		<div className='App'>
+			<h1>And So It Begins</h1>
+		</div>
+	);
 }
 
 export default App;
