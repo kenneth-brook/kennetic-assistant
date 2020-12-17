@@ -1,9 +1,11 @@
 import "./sass-master/index.scss";
 
+import Head from "./Head/Head";
+
 function App() {
 	return (
 		<div className='App'>
-			<h1>And So It Begins</h1>
+			<Head />
 		</div>
 	);
 }

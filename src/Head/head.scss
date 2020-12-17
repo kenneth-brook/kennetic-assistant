@@ -1,0 +1,80 @@
+.headWrap {
+	width: 100%;
+
+	.blockAndStripeWrap {
+		width: 100%;
+		display: flex;
+
+		.block {
+			width: 20%;
+			height: 184px;
+			background-color: $header-main;
+			z-index: -1;
+		}
+
+		.stripeWrap {
+			width: 79%;
+			display: flex;
+			flex-direction: column;
+
+			.stripe1 {
+				width: 90%;
+				height: 28px;
+				border-top: 25px solid $header-main;
+				border-right: 25px solid white;
+			}
+
+			.stripe2 {
+				width: 86%;
+				height: 28px;
+				border-top: 25px solid $header-main;
+				border-right: 25px solid white;
+			}
+
+			.stripe3 {
+				width: 82%;
+				height: 28px;
+				border-top: 25px solid $header-main;
+				border-right: 25px solid white;
+			}
+
+			.stripe4 {
+				width: 78%;
+				height: 28px;
+				border-top: 25px solid $header-main;
+				border-right: 25px solid white;
+			}
+		}
+	}
+
+	.titleWrap {
+		display: flex;
+
+		h1 {
+			font-size: 4rem;
+			color: $header-text;
+		}
+
+		.title1Wrap {
+			margin-top: -125px;
+			margin-left: 15px;
+			z-index: 5;
+
+			.title1 {
+				font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+				position: relative;
+				transform: rotate(-35deg);
+			}
+		}
+
+		.title2Wrap {
+			margin-top: -105px;
+			margin-left: -55px;
+			z-index: 4;
+
+			.title2 {
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+			}
+		}
+	}
+}
