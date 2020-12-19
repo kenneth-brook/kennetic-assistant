@@ -1,5 +1,7 @@
 .headWrap {
-	width: 100%;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 15px;
 
 	.blockAndStripeWrap {
 		width: 100%;
@@ -10,6 +12,8 @@
 			height: 184px;
 			background-color: $header-main;
 			z-index: -1;
+			border-top-left-radius: 15%;
+			border-bottom-left-radius: 15%;
 		}
 
 		.stripeWrap {
@@ -18,28 +22,28 @@
 			flex-direction: column;
 
 			.stripe1 {
-				width: 90%;
+				width: 94%;
 				height: 28px;
 				border-top: 25px solid $header-main;
 				border-right: 25px solid white;
 			}
 
 			.stripe2 {
-				width: 86%;
+				width: 90%;
 				height: 28px;
 				border-top: 25px solid $header-main;
 				border-right: 25px solid white;
 			}
 
 			.stripe3 {
-				width: 82%;
+				width: 86%;
 				height: 28px;
 				border-top: 25px solid $header-main;
 				border-right: 25px solid white;
 			}
 
 			.stripe4 {
-				width: 78%;
+				width: 82%;
 				height: 28px;
 				border-top: 25px solid $header-main;
 				border-right: 25px solid white;
