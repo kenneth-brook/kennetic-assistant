@@ -5,6 +5,6 @@ The first official project of Kennetic Concepts in many years.
 
 ## App built with
 
-- React\
-- SASS\
+- React
+- SASS
 - React Router Dom
